@@ -2186,10 +2186,10 @@
 		background-color: #37a6cb;
 	}
 
-/* Image */
+/* Image changelogo */
 
 	img {
-		max-width: 100%;
+		max-width: 100%; 
 	}
 
 	.image {
@@ -3398,14 +3398,14 @@
 
 		}
 
-/* Banner */
+/* Banner change02 background-image */
 
 	#banner {
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../img/banner.jpg");
+		background-image: url("../img/banner.jpeg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3438,7 +3438,7 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: rgb(155 241 255 / 10%);
 			content: '';
 			display: block;
 			height: 100%;

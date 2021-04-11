@@ -1634,12 +1634,15 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #ffffff;
+		color: #070707;
+		/*change*/
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
 		line-height: 1.65;
+		background-color: white; 
+		/*change */
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -2186,10 +2189,10 @@
 		background-color: #37a6cb;
 	}
 
-/* Image */
+/* Image changelogo */
 
 	img {
-		max-width: 100%;
+		max-width: 100%; 
 	}
 
 	.image {
@@ -3398,14 +3401,14 @@
 
 		}
 
-/* Banner */
+/* Banner change02 background-image */
 
 	#banner {
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../img/banner.jpg");
+		background-image: url("../img/banner.jpeg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3438,7 +3441,7 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: rgb(155 241 255 / 10%);
 			content: '';
 			display: block;
 			height: 100%;
@@ -3617,7 +3620,8 @@
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		background-color: #f8f9fa; 
+		/*change f8f9fa 2a2f4a*/
 	}
 
 		#main > * {

@@ -1,7 +1,17 @@
 {{ "<!-- Header -->" | safeHTML }}
     <header id="header" class="alt">
-        <a href="{{ .Site.BaseURL }}" class="logo">{{ if .Site.Params.Navigation.logo }}<img src="{{ .Site.Params.baseURL }}/img/{{ .Site.Params.Navigation.logo }}" alt="" />{{ else }}<strong>{{ .Site.Params.Navigation.title }}</strong> <span>{{ .Site.Params.Navigation.subtitle }}</span>{{ end }}</a>
+        <a href="{{ .Site.BaseURL }}" class="logo">
+
+            <!-- change03 but nothing happen?? -->
+            <!-- {{ if .Site.Params.Navigation.logo }} -->
+            <img style = "max-width: 10%" src="{{ .Site.Params.baseURL }}/img/{{ .Site.Params.Navigation.logo }}" alt="" />
+            <!-- {{ else }} -->
+            <strong>{{ .Site.Params.Navigation.title }}</strong> 
+            <span>{{ .Site.Params.Navigation.subtitle }}</span>
+            <!-- {{ end }} -->
+        </a>
         <nav>
+            
             <a href="#menu">{{ .Site.Params.Navigation.menu }}</a>
         </nav>
     </header>
